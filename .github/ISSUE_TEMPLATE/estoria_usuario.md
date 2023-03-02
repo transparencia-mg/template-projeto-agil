@@ -1,5 +1,9 @@
 ---
-name: Estória [nome]
+name: Acompanhamento Desenvolvimento Estória Usuário
+about: Acompanhamento Desenvolvimento Estória Usuário
+title: Estória ...
+labels: ''
+assignees: ''
 ---
 
 - [ ] 1. Escrita da estória de usuário
