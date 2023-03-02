@@ -1,5 +1,5 @@
 .ONESHELL:
-.PHONY: help setup venv install scripts format lint-blue lint-isort link-prospect lint security tests clean
+.PHONY: help setup venv install format lint-blue lint-isort link-prospect lint security tests clean
 
 ACTIVATE_LINUX=. venv/bin/activate
 INSTALL_PACKAGES=pip install -r requirements.txt
@@ -7,7 +7,7 @@ INSTALL_PACKAGES=pip install -r requirements.txt
 help: ## Short description to make targets
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' Makefile | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-10s\033[0m %s\n", $$1, $$2}'
 
-setup: clean venv install scripts ## Initial project setup with package installation and needed scripts
+setup: clean venv install ## Initial project setup with package installation
 
 venv: ## Create python virtual environment in 'venv' folder
 	@echo "Creating python virtual environment in 'venv' folder..."
@@ -35,7 +35,7 @@ gh-deploy-mike: ## Deploy docs
 
 serve: ## Start mkdocs server
 	@echo "Starting mkdocs server"
-	@mkdocs serve -a 0.0.0.0:8000
+	@mkdocs serve
 
 clean: ## Clean previous python virtual environment
 	@echo "Cleaning previous python virtual environment..."

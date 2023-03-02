@@ -33,8 +33,9 @@ Comando `mkdocs serve` cria servidor local para visualização, em tempo real, d
 
 Versionamento desta documentação foi criada utilizando a biblioteca [mike](https://github.com/jimporter/mike), conforme orientações [material mkdocs](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/?h=version#versioning). 
 [Exemplo de implementação](https://squidfunk.github.io/mkdocs-material-example-versioning/0.3/) e o [repositório de origem](https://github.com/squidfunk/mkdocs-material-example-versioning) também podem ser utilizados como referência.
-Make target `gh-deploy-mike` em conjunto com Actions para publicação da documentação versão `0.1` foi criado para facilitar o processo inicial de deploy da documentação.
-Ao final de toda sprint publicação da nova versão (latest) deverá ser realizada manualmente conforme orientado abaixo. Necessário atualizar versão do Make target `gh-deploy-mike` para que processo de deploy automático seja realizado corretamente.
+Make target `gh-deploy-mike`, em conjunto com Github Actions, foi criado para facilitar o processo inicial de deploy da documentação (versão `0.1`).
+Publicação da novas versões deverá ser realizada manualmente conforme orientado abaixo. 
+Necessário atualizar versão do Make target `gh-deploy-mike` para que processo de deploy automático seja realizado corretamente.
 
 ```
 $ git checkout gh-pages
