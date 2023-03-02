@@ -1,8 +1,8 @@
-site_name: Work Stefanini CKAN MG
+site_name: NOME DO PROJETO
 
 # Repository
-repo_name: transparencia-mg/
-repo_url: https://github.com/
+repo_name: <organizacao-github>/<repo>
+repo_url: https://github.com/<organizacao-github>/<repo>
 edit_uri: edit/main/docs/
 
 # Configuration

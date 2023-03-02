@@ -45,6 +45,10 @@ $ mike deploy --push --update-aliases <minor>.<major> latest
 
 Visualização local da documentação versionada poderá ser feita via comando `mike serve`. Comando `mike set-default --push latest` configura a última versão como a default.
 
+## Configurações
+
+Mudança nas configurações deste template poderão ser realizadas no arquivo `mkdocs.yml`.
+
 ## Contribuições
 
 Encontrou algo errado ou gostaria de enviar alguma sugestão. 
