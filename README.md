@@ -45,9 +45,11 @@ $ mike deploy --push --update-aliases <minor>.<major> latest
 
 Visualização local da documentação versionada poderá ser feita via comando `mike serve`. Comando `mike set-default --push latest` configura a última versão como a default.
 
-## Configurações
+## Exemplos e Configurações
 
-Mudança nas configurações deste template poderão ser realizadas no arquivo `mkdocs.yml`.
+Exemplo de utilização deste template pode ser encontrado [neste projeto](https://transparencia-mg.github.io/work-stefanini/).
+No arquivo `mkdocs.yml` poderão ser realizadas configurações do site estático gerado, como nome do projeto e links para repositório github.
+Github pages poderá ser utilizado para publicação online do documento (branch `gh-pages`). Sugerimos incluir o link gerado nos detalhes do repositório para facilitar o acesso do mesmo.
 
 ## Contribuições
 
