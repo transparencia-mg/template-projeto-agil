@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Modelo de Casos de Teste
 
 Registra os testes de todas as regras negociais pensadas para a a estória de usuário [XXXXXX](), bem como testes adicionais previstos abaixo:

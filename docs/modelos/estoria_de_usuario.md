@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Modelo Estória de Usuário
 
 **Como** XXXX, **eu quero** XXXXX, **para** XXXXX.
