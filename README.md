@@ -63,7 +63,13 @@ Conforme documentado [neste post](https://transparencia-mg.github.io/handbook/0.
 Um pequeno inconveniente é que este sistema não lista todos os integrantes da equipe ao utilizar a opção "@" durante a criação de um comentário. 
 Como sugestão, basta copiar e colar o nome do usuário que se deseja chamar a atenção durante a criação de comentários.
 
+A utilização/configuração de GitHub actions reutilizáveis é recomendada para:
+
+- [Atribuir issues](https://github.com/gabrielbdornas/reusable-workflows#add-project-to-issues) ao [projeto](https://github.com/orgs/transparencia-mg/projects/6/views/1).
+
+- [Atribuir data de fechamento do issue](https://github.com/gabrielbdornas/reusable-workflows#add-duo-date-to-orgs-closed-issue).
+
 ## Contribuições
 
 Encontrou algo errado ou gostaria de enviar alguma sugestão. 
-Abra um [Issue]() para nós.
+Abra um [Issue](https://github.com/transparencia-mg/template-projeto-agil/issues) para nós.
