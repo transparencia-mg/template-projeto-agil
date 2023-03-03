@@ -47,9 +47,16 @@ Visualização local da documentação versionada poderá ser feita via comando 
 
 ## Exemplos e Configurações
 
+Template criado utilizando gerador de site estático [Mkdocs com tema Material](https://squidfunk.github.io/mkdocs-material/).
 Exemplo de utilização deste template pode ser encontrado [neste projeto](https://transparencia-mg.github.io/work-stefanini/).
 No arquivo `mkdocs.yml` poderão ser realizadas configurações do site estático gerado, como nome do projeto e links para repositório github.
 Github pages poderá ser utilizado para publicação online do documento (branch `gh-pages`). Sugerimos incluir o link gerado nos detalhes do repositório para facilitar o acesso do mesmo.
+Para configurar sistema de comentários basta seguir as [instruções de instalação do app Giscus](https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/?h=comm#customization), substituindo a script gerado no arquivo `overrides/partial/comments.html`.
+Neste template incluímos comentários nas estórias de usuários e casos de testes. 
+Esta inclusão é realizada apenas incluíndo a opção `comments: true` no início dos arquivos `.md`.
+Conforme documentado [neste post](https://transparencia-mg.github.io/handbook/0.1/posts/20221226_sistema_de_comentarios/?h=comment#sistema-de-comentarios-handbook), os comentários são integrados com o sistema de discussões do repositório.
+Um pequeno inconveniente é que este sistema não lista todos os integrantes da equipe ao utilizar a opção "@" durante a criação de um comentário. 
+Como sugestão, basta copiar e colar o nome do usuário que se deseja chamar a atenção durante a criação de comentários.
 
 ## Contribuições
 
