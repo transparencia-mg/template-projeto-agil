@@ -84,6 +84,12 @@ extra: # Footer
     - icon: fontawesome/solid/flag
       name: Material for MkDocs Icons, Emojis.
       link: https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
+    - icon: fontawesome/brands/youtube
+      name: Playlist YouTube.
+      link: https://www.youtube.com/playlist?list=PLCbgbVHsUygAIzR_jxHEUt0NRc-MNF7cy
+    - icon: material/presentation
+      name: Apresentação do Template.
+      link: https://transparencia-mg.github.io/reveal.js/presentations/20230302_template_projeto_agil/index.html
   version:
     provider: mike
 
