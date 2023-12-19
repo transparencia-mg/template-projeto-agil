@@ -1,0 +1,15 @@
+# This uses a reusable workflow
+name: Publish mkdocs with mike version reusable
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/**'
+
+jobs:
+  publish_mkdocs_with_mike_version:
+    uses: o-futuro-ja-comecou/github-actions-reutilizaveis/.github/workflows/publish_mkdocs_with_mike_version_reusable.yml@RELEASE_VERSION
+      with:
+        doc_version: '0.0.1'
