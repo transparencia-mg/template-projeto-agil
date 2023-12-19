@@ -1,3 +1,3 @@
 # Introdução
 
-Página Inicial do projeto
+Editando a página Inicial do meu novo projeto.
