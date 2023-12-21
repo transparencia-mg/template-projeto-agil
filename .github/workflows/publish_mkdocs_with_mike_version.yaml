@@ -10,6 +10,6 @@ on:
 
 jobs:
   publish_mkdocs_with_mike_version:
-    uses: o-futuro-ja-comecou/github-actions-reutilizaveis/.github/workflows/publish_mkdocs_with_mike_version_reusable.yml@v2.3
+    uses: o-futuro-ja-comecou/github-actions-reutilizaveis/.github/workflows/publish_mkdocs_with_mike_version_reusable.yml@v2.4
     with:
       doc_version: 0.0.1
